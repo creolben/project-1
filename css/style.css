@@ -181,9 +181,10 @@ Intro
 ================================= */
 
 #intro{
-    height:655px;
+    height:635px;
     width:100%;
-    background-color: #e1e3e4;
+    background-color: #529abb;
+    background-image: url(../img/bg-mac.png);
     background-position:center;
     background-repeat:no-repeat;
     overflow-y:hidden;
@@ -191,30 +192,24 @@ Intro
     position:relative;
 }
 
-#mypic{
-	height:335px;
-	width:50%;
-	background-image: url(../img/bg1.jpg);
-	background-position:center;
-	background-repeat:no-repeat;
-}
+
 
 .intro-text {
 	position:relative;
 	width:100%;
-	margin-top:100px;
+	margin-top:200px;
 	z-index:1000;
 }
 #intro .brand {
-	margin-top: 30px;
+	margin-top: 40px;
 }
 .intro-text h1 a {
-	color:#3c948b;
+	color:#fff;
 	text-align:center;
 	font-weight: 700;
 	font-size: 40px;
 	line-height:1.1em;
-	padding-top:5px;
+	padding-top:30px;
 	text-transform: uppercase;
 }
 .intro-text h1 a:hover {
@@ -226,7 +221,7 @@ Intro
 	margin:0 auto;
 	margin-top: 20px;
 	margin-bottom: 25px;
-	border-bottom:1px solid #3c948b;
+	border-bottom:1px solid #fff;
 }
 
 .intro-text p span {
@@ -542,7 +537,7 @@ Footer
 footer {
 	background: #2b2b2b;
 	color: #ddd;
-	padding: 20px 0 30px;
+	padding: 50px 0 30px;
 }
 
 
