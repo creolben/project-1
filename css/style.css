@@ -17,7 +17,7 @@ body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 	line-height: 1.6em;
-
+	
 }
 
 h1 {
@@ -120,12 +120,12 @@ Home sections
 .section-heading {
 	margin-bottom: 70px;
 }
-
+	
 .section-heading h2 {
 	font-size: 38px;
 	text-transform: uppercase;
 }
-
+	
 .section-heading .heading-line {
 	margin:0 auto;
 	display: block;
@@ -136,7 +136,7 @@ Home sections
 	margin-bottom: 20px;
 }
 
-
+	
 /* --- section bg var --- */
 
 .bg-white {
@@ -168,10 +168,10 @@ Home sections
 Spacer
 ============================= */
 
-#spacer1{
+#spacer1{	
 	background-image: url(../img/spacer/1.jpg);
 }
-#spacer2{
+#spacer2{	
 	background-image: url(../img/spacer/2.jpg);
 }
 
@@ -181,16 +181,10 @@ Intro
 ================================= */
 
 #intro{
-<<<<<<< 3cab4987713c73125fa5b22c4bdfc72b4e0bda96
     height:635px;
     width:100%;
     background-color: #529abb;
     background-image: url(../img/bg-mac.png);
-=======
-    height:655px;
-    width:100%;
-    background-color: #e1e3e4;
->>>>>>> add project folders
     background-position:center;
     background-repeat:no-repeat;
     overflow-y:hidden;
@@ -198,22 +192,11 @@ Intro
     position:relative;
 }
 
-<<<<<<< 3cab4987713c73125fa5b22c4bdfc72b4e0bda96
 
-=======
-#mypic{
-	height:335px;
-	width:50%;
-	background-image: url(../img/bg1.jpg);
-	background-position:center;
-	background-repeat:no-repeat;
-}
->>>>>>> add project folders
 
 .intro-text {
 	position:relative;
 	width:100%;
-<<<<<<< 3cab4987713c73125fa5b22c4bdfc72b4e0bda96
 	margin-top:200px;
 	z-index:1000;
 }
@@ -222,26 +205,12 @@ Intro
 }
 .intro-text h1 a {
 	color:#fff;
-=======
-	margin-top:100px;
-	z-index:1000;
-}
-#intro .brand {
-	margin-top: 30px;
-}
-.intro-text h1 a {
-	color:#3c948b;
->>>>>>> add project folders
 	text-align:center;
 	font-weight: 700;
-	font-size: 40px;
+	font-size: 40px; 
 	line-height:1.1em;
-<<<<<<< 3cab4987713c73125fa5b22c4bdfc72b4e0bda96
 	padding-top:30px;
-=======
-	padding-top:5px;
->>>>>>> add project folders
-	text-transform: uppercase;
+	text-transform: uppercase;	
 }
 .intro-text h1 a:hover {
 	text-decoration: none;
@@ -252,11 +221,7 @@ Intro
 	margin:0 auto;
 	margin-top: 20px;
 	margin-bottom: 25px;
-<<<<<<< 3cab4987713c73125fa5b22c4bdfc72b4e0bda96
 	border-bottom:1px solid #fff;
-=======
-	border-bottom:1px solid #3c948b;
->>>>>>> add project folders
 }
 
 .intro-text p span {
@@ -462,13 +427,13 @@ Works
 	width: 260px;
 }
 .lb-overlay a.lb-close{
-
+	
 	z-index: 1001;
 	color: #fff;
 	position: absolute;
 	top: 43px;
 	left: 50%;
-
+	
 	font-size: 28px;
 	line-height: 26px;
 	text-align: center;
@@ -534,9 +499,9 @@ Works
   100% { transform: scale(1); opacity: 1; }
 }
 
-/*
-	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens
-	http://bricss.net/post/11230266445/css-hack-to-target-opera
+/* 
+	100% Height for Opera as the max-height seems to be ignored, not optimal for large screens 
+	http://bricss.net/post/11230266445/css-hack-to-target-opera 
 */
 x:-o-prefocus, .lb-overlay img {
     height: 100%;
@@ -551,7 +516,7 @@ Contact
 /* ================================
 Bottom widget
 ================================= */
-ul.social-network {
+ul.social-network {	
 	margin: 0;
 	margin-left:0;
 	padding-left: 0;
@@ -572,11 +537,7 @@ Footer
 footer {
 	background: #2b2b2b;
 	color: #ddd;
-<<<<<<< 3cab4987713c73125fa5b22c4bdfc72b4e0bda96
 	padding: 50px 0 30px;
-=======
-	padding: 20px 0 30px;
->>>>>>> add project folders
 }
 
 
@@ -595,12 +556,12 @@ more media queries
 	.box-team img {
 		float: none;
 		margin:0 auto;
-	}
+	}	
 	.box-team {
 		margin-bottom: 30px;
 	}
 
-
+	
 }
 
 @media (max-width:992px) {
