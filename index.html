@@ -16,19 +16,10 @@
 						<button class="dl-trigger">Open Menu</button>
 						<ul class="dl-menu">
 
-              <a class="btn btn-default btn-block" data-toggle="modal" data-target="#myBio">My Bio</a>
-              <a class="btn btn-default btn-block" data-toggle="modal" data-target="#myModal">My Projects</a>
-							<li>
+                    <a class="btn btn-default btn-block" data-toggle="modal" data-target="#myBio">My Bio</a>
+                    <a class="btn btn-default btn-block" data-toggle="modal" data-target="#myModal">My Projects</a>
+						</ul>
 
-							</li>
-              <li>
-								 <a class="btn btn-default btn-block" data-toggle="modal" data-target="#myModal">My Projects</a>
-							</li>
-						<!--	<li><a href="#contact">Contact</a></li>-->
-
-							<li>
-
-								<a href="#" class="btn btn-default btn-block" data-toggle="modal" data-target="#myModal">Project 1</a>
 
 					</div><!-- /dl-menuwrapper -->
 	</div>
@@ -40,7 +31,7 @@
 				<div class="container">
           <div class="row">
             <div class="brand">
-                  <h1><a href="index.html">CSCI E-15</a></h1>
+                  <h1><a data-toggle="modal" href="#myModal">CSCI E-15</a></h1>
                   <div class="site-slogan">Dynamic Web Applications Fall 2016 </div>
 
                   <div class="line-spacer"></div>
@@ -87,7 +78,7 @@
        <!-- Modal end -->
        <!-- Modal -->
        <div class="modal fade" id="myBio" tabindex="-1" role="dialog" aria-labelledby="myBio-label" aria-hidden="true">
-         <div class="modal-dialog modal-lg">
+         <div class="modal-dialog modal-md">
            <div class="modal-content">
              <div class="modal-header" style="background-color:rgba(60,148,139,0.7);">
                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
@@ -173,22 +164,22 @@
        <!-- Modal end -->
 
 <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
-  <div class="modal-dialog">
-  <div class="modal-content">
-	<div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal">×</button>
-		<h3 class="modal-title">My Projects</h3>
-	</div>
-	<div class="modal-body">
-    <div class="container col-md-12">
- <div class="row">
-   <div class = "col-md-4" <a href="#" title="Password Generator"><img src="img/1.jpg" class = "img-responsive center-block"></a></div>
-   <div <a href="#" title="Project 3"><img src="img/2.jpg" class = "col-md-4 img-responsive center-block"></a></div>
-  <div <a href="#" title="Project 4"><img src="img/1.jpg" class = "col-md-4 img-responsive center-block"></a></div>
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+	     <div class="modal-header">
+		       <button type="button" class="close" data-dismiss="modal">×</button>
+		         <h3 class="modal-title">My Projects</h3>
+        </div>
+    	<div class="modal-body col-md-12">
 
-</div>
-</div>
-	</div>
+
+            <div <a href="#" title="Project 3"><img src="img/works/portfolio-4.jpg" class = "col-md-4 img-responsive center-block"></a></div>
+            <div <a href="#" title="Project 3"><img src="img/works/portfolio-2.jpg" class = "col-md-4 img-responsive center-block"></a></div>
+            <div <a href="#" title="Project 4"><img src="img/portfolio-3.jpg" class = "col-md-4 img-responsive center-block"></a></div>
+
+
+
+    	</div>
 
 	<div class="modal-footer">
 		<button class="btn btn-default" data-dismiss="modal">Close</button>
