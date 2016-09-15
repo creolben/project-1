@@ -78,21 +78,44 @@
        <!-- Modal end -->
        <!-- Modal -->
        <div class="modal fade" id="myBio" tabindex="-1" role="dialog" aria-labelledby="myBio-label" aria-hidden="true">
-         <div class="modal-dialog modal-md">
+         <div class="modal-dialog modal-lg">
            <div class="modal-content">
              <div class="modal-header" style="background-color:rgba(60,148,139,0.7);">
                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-               <h4 class="modal-title" id="myBio-label" style="color:#fff;">My Bio</h4>
+               <h4 class="modal-title" id="myBio-label" style="color:#fff;">Bio</h4>
              </div>
              <div class="modal-body">
                <h3>Benjamin Jerome</h3>
                <div class="row">
+                 <div class="col-md-6 text-left">
+
+                   <ul>
+
+                     <li>
+                        <strong><p> What is your name as listed with HES and what you prefer to be called (if different than what is listed)?</p></strong>
+                        <em>My name is Benjamin Jerome. Most people call me Ben.</em>
+                        <hr>
+                    </li>
+                    <li>
+                        <strong><p>What do you do?</p></strong>
+                        <em>I am currently working at Santander Bank as an automation test engineer.</em>
+                        <hr>
+                   </li>
+                  <li>
+                    <strong><p>Why are you taking this course?</p></strong>
+                    <em>I have always been fascinated by web technologies and the creativity in it. I finally decided to give it a try.</em>
+                    <hr>
+                 </li>
+                 <li>
+                      <strong><p>Why are you taking this course?</p></strong>
+                      <em>I just want to learn more about the backend in web development.</em>
+                      <hr>
+                </li>
+                   </ul>
+                </div>
+                <div class="row">
                  <div class="col-md-6">
-                   <p>My name is Benjamin Jerome. Most people call me Ben</p>
-                   <p>test Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
-                 </div>
-                 <div class="col-md-6">
-                   <img src="img/me.jpg" alt="" class = "img-responsive center-block">
+                   <img src="img/me.jpg" alt="" class ="img-responsive center-block">
                  </div>
                </div>
              </div>
@@ -170,24 +193,36 @@
 		       <button type="button" class="close" data-dismiss="modal">×</button>
 		         <h3 class="modal-title">My Projects</h3>
         </div>
-    	<div class="modal-body col-md-12">
 
+  <div class="modal-body container-fluid">
 
-            <div <a href="#" title="Project 3"><img src="img/works/portfolio-4.jpg" class = "col-md-4 img-responsive center-block"></a></div>
-            <div <a href="#" title="Project 3"><img src="img/works/portfolio-2.jpg" class = "col-md-4 img-responsive center-block"></a></div>
-            <div <a href="#" title="Project 4"><img src="img/portfolio-3.jpg" class = "col-md-4 img-responsive center-block"></a></div>
+        <div class="image-box col-md-4">
+          <div class="overlay-container">
+            <img src="img/works/portfolio-4.jpg" alt="" class="img-responsive center-block">
+            <a class="overlay" data-toggle="modal" data-target="#project-2"></a>
+          </div>
+          <a class="btn btn-default btn-block" data-toggle="modal" data-target="#">xkcd style password</a>
+        </div>
 
+        <div class="image-box col-md-4">
+          <div class="overlay-container">
+            <img src="img/works/portfolio-2.jpg" alt="" class="img-responsive center-block">
+            <a class="overlay" data-toggle="modal" data-target="#project-2"></a>
+          </div>
+          <a class="btn btn-default btn-block" data-toggle="modal" data-target="#">Laravel Basics</a>
+        </div>
+        <div class="image-box col-md-4">
+          <div class="overlay-container">
+            <img src="img/works/portfolio-3.jpg" alt="" class="img-responsive center-block">
+            <a class="overlay" data-toggle="modal" data-target="#project-2"></a>
+          </div>
+          <a class="btn btn-default btn-block" data-toggle="modal" data-target="#">Project 4</a>
+        </div>
 
-
-    	</div>
-
-	<div class="modal-footer">
-		<button class="btn btn-default" data-dismiss="modal">Close</button>
-	</div>
    </div>
   </div>
 </div>
-
+</div>
 	<footer>
 		<div class="container">
 			<div class="row">
